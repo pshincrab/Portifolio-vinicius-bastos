@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 
+        Página principal do portfólio pessoal
+        Desenvolvido como atividade da disciplina Fundamentos da Programação Web
+    -->
+    <title>Portfólio Pessoal - Vinícius Bastos</title>
+
+    <!-- Folha de estilos principal (CSS puro, sem frameworks) -->
+    css/style.css
+</head>
+<body>
+
+    <!-- ================== MENU DE NAVEGAÇÃO ================== -->
+    <nav>
+        <ul class="menu">
+            <li>#sobreSobre mim</a></li>
+            <li>#formacaoFormação</a></li>
+            <li>#portfolioPortfólio</a></li>
+            <li>#contatoContato</a></li>
+        </ul>
+    </nav>
+
+    <!-- ================== SEÇÃO SOBRE MIM ================== -->
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+
+        <p>
+            Meu nome é <strong>Vinicius Bastos</strong> e este é o meu portfólio pessoal.
+            Atualmente estou em processo de formação na área de tecnologia
+            e trabalho como desenvolvedor back-end em um sistema bancário.
+        </p>
+
+        <p>
+            Nos momentos livres gosto de ler, tocar violão e fazer trilhas.
+        </p>
+    </section>
+
+    <!-- ================== SEÇÃO FORMAÇÃO ================== -->
+    <section id="formacao">
+        <h2>Formação</h2>
+        <ul> 
+            <li>Curso: Engenharia da computação</li>
+            <li>Instituição: UFPE</li>
+            <li>2019 - 2024</li>
+        </ul>
+        <ul>
+            <li>Curso: Ciência da computação</li>
+            <li>Instituição: UNINTER</li>
+            <li>2025 - current</li>
+        </ul>
+    </section>
+
+    <!-- ================== SEÇÃO PORTFÓLIO ================== -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+
+        <p>
+            Abaixo estão alguns trabalhos e projetos iniciais
+            desenvolvidos durante os estudos:
+        </p>
+
+        <ul>
+            <li>#Projeto Jogo O2</a></li>
+            <li>#Carro Seguidor de linha</li>
+        </ul>
+    </section>
+
+    <!-- ================== SEÇÃO CONTATO ================== -->
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <p>
+            Caso queira entrar em contato, preencha o formulário abaixo.
+        </p>
+
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar mensagem</button>
+        </form>
+    </section>
+
+    <!-- Script JavaScript responsável pelas validações -->
+    js/script.js
+</body>
+</html>
